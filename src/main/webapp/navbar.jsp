@@ -23,7 +23,7 @@
             </span>
         </a>
 
-        <a href="#" class="me-4">
+        <a href="all_notes.jsp" class="me-4">
             <span class="text-white hover:bg-amber-500 p-1 rounded">
                 Show Notes
             </span>
