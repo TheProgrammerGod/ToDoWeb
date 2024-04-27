@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<div class="bg-amber-300 p-4 flex justify-between">
+<div class="bg-yellow-300 p-4 flex justify-between">
     <div class="flex justify-between w-max">
         <div class="text-white font-bold me-4">
             To-Do App

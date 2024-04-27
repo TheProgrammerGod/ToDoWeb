@@ -14,7 +14,7 @@
 <body class="bg-amber-100">
     <%@include file="navbar.jsp"%>
     <div class="m-auto w-3/12 bg-amber-300 p-6 mt-4 rounded-lg pb-4">
-    <h1 class="text-3xl font-medium my-6 text-white">Add a note</h1>
+    <h1 class="text-3xl font-medium my-6 text-white">Add a note &#x1f4a1;</h1>
     <form action="SaveNoteServlet" method="post" class="text-white">
         <label for="title" class="">Title:</label>
         <br>
