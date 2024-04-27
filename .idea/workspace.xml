@@ -9,12 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a4eb01d-cc97-44a5-b590-a92576048278" name="Changes" comment="Add notes functionality implemented.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/servlets/DeleteServlet.java" afterDir="false" />
+    <list default="true" id="2a4eb01d-cc97-44a5-b590-a92576048278" name="Changes" comment="Show notes pages and delete functionality implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/add_notes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/add_notes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/all_notes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/all_notes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/navbar.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +25,8 @@
         <option value="HTTP Request" />
         <option value="Class" />
         <option value="Jspx File" />
-        <option value="Jsp File" />
         <option value="Servlet" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -190,7 +188,7 @@
       <workItem from="1714057443617" duration="695000" />
       <workItem from="1714058153038" duration="13277000" />
       <workItem from="1714144961400" duration="12546000" />
-      <workItem from="1714223059073" duration="5690000" />
+      <workItem from="1714223059073" duration="13996000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -208,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714158617441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Show notes pages and delete functionality implemented">
+      <option name="closed" value="true" />
+      <created>1714235570038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714235570038</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +223,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add notes functionality implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add notes functionality implemented." />
+    <MESSAGE value="Show notes pages and delete functionality implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show notes pages and delete functionality implemented" />
   </component>
 </project>
