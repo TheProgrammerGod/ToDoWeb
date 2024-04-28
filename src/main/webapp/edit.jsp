@@ -26,7 +26,8 @@
 
     <div class="m-auto w-3/12 bg-amber-300 p-6 mt-4 rounded-lg pb-4">
         <h1 class="text-3xl font-medium my-6 text-white">Edit your note &#x1f4a1;</h1>
-        <form action="UodateServlet" method="post" class="text-white">
+        <form action="UpdateServlet" method="post" class="text-white">
+            <input type="hidden" value="<%=note.getId()%>" name="id">
             <label for="title" class="">Title:</label>
             <br>
             <input name="title" id="title" value="<%=note.getTitle()%>" type="text" class="text-black my-2 outline-none p-1 rounded bg-amber-100 w-full" placeholder="Enter the title of your note">
@@ -34,10 +35,9 @@
             <br>
             <textarea name="content" id="content" class="text-black my-2 w-full bg-amber-100 rounded outline-none p-1 h-40" placeholder="Enter content"><%=note.getContent()%></textarea>
             <div class="m-auto w-fit mt-2">
-                <button class="p-1 rounded text-base bg-green-500 px-2" type="submit">Submit</button>
+                <button class="p-1 rounded text-base bg-emerald-500 px-2" type="submit">Save</button>
             </div>
         </form>
-
-
+    </div>
 </body>
 </html>
